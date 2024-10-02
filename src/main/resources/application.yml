@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 26_LayeredApplication_Spring_Data_JPA
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///springdb
+    username: root
+    password: root	
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
